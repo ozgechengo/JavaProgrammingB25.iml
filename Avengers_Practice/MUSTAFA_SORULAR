@@ -1,0 +1,35 @@
+===== public void setInfo(int no,String street, String city, String state, int zipCode) {
+  adress1.setInfo(145,"Beverly Park","Beverly Hills","CA",90210);
+
+
+
+     public Address(int buildingNumber, String street, String city, String state, int zipCode) {
+  Address address=new Address(945,"Cherringham Court","Johns Creek","GA",30005);
+
+          System.out.println(address);
+
+
+
+          Bu ikisi arasindaki fark nedir ?
+
+
+
+
+    public Animal(String name, String breed, char gender, int age, char size, String color) {
+        this.name = name;
+        this.breed = breed;
+        this.gender = gender;
+        this.age = age;
+        this.size = size;
+        this.color = color;
+    }
+
+    public void setInfo(String name, String breed, char gender, int age, char size, String color) {
+        this.name = name;
+        this.breed = breed;
+        this.gender = gender;
+        this.age = age;
+        this.size = size;
+        this.color = color;
+
+    }

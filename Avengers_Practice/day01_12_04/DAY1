@@ -1,0 +1,21 @@
+
+
+
+
+           1- Type of Casting
+           2- String Practices
+
+
+    1-TYPE OF CASTING :
+    a- Implicit Casting
+       Done by complier
+       Smaller to bigger data type
+       No Loss data
+
+    b-Exlicit Casting
+      Done by developer
+      Bigger to smaller
+      We can loss data
+
+
+    2-STRING METHODS :

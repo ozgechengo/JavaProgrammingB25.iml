@@ -3,8 +3,8 @@ package day38_Inheritance.Car;
 public class BMW extends Car {
 
 
-    public BMW(String brand, String model, String color, int year, double price, double miles) {
-        super(brand, model, color, year, price, miles);
+    public BMW(String model, String color, int year, double price, double miles) {
+        super("BMW", model, color, year, price, miles);
     }
 
     public void breaksDown() {

@@ -5,7 +5,7 @@ public class FindDuplucate {
     public static void main(String[] args) {
 
 
-        String str = "aabbaccxjjddk";
+        String str = "aabbaccxhhhhhjjddk";
 
         String result = "";
 
@@ -21,8 +21,8 @@ public class FindDuplucate {
                      if(each==ch) {
                         count++;
                      }}
-                if(count>1){
+                if(count>4){
 
-                 System.out.print(count+" "+ch);
+                 System.out.print(ch+"= b  "+count);
         }}}}
 

@@ -16,6 +16,15 @@ public class Car {
         this.miles = miles;
     }
 
+
+
+    public  void start(){
+
+        System.out.println(brand+" is starting");
+    }
+    public  void drive(){
+        System.out.println(brand+"is driving ! ");
+}
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
@@ -26,11 +35,4 @@ public class Car {
                 ", miles=" + miles +
                 '}';
     }
-
-    public  void start(){
-
-        System.out.println(brand+" is starting");
-    }
-    public  void drive(){
-        System.out.println(brand+"is driving ! ");
-}}
+}

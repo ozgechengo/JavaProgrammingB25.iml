@@ -1,7 +1,5 @@
 package day39_RECAP.Shapes;
 
-import java.util.concurrent.Callable;
-
 public class ShapeObject {
 
 

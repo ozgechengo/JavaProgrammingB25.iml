@@ -3,7 +3,7 @@ package day39_RECAP.Cydeo;
 public class CydeoWorkers {
     public static void main(String[] args) {
 
-        Developer developer = new Developer("Korkmaz", 29, 'M', 1, "Java Developer", 125000);
+        Developer developer = new Developer("Korkmaz", 29, 'M', 1, 125000);
 
         Tester tester = new Tester("Olga", 27, 'F', 2, "SDET", 110000);
 
@@ -16,6 +16,7 @@ public class CydeoWorkers {
         System.out.println(tester);
         System.out.println(teacher);
         System.out.println(student);
+        System.out.println(student);
 
 
         System.out.println("-----------------------------------------------------------------");
@@ -24,7 +25,7 @@ public class CydeoWorkers {
 
         System.out.println(developer.getAge());
 
-        System.out.println(developer);
+        System.out.println(tester.getJobTitle());
 
         System.out.println("-----------------------------------------------------------------");
 
@@ -64,6 +65,7 @@ public class CydeoWorkers {
         student.eat();
         student.drink();
         student.sleep();
+
 
         // student.fixingBugs();
         // student.createTicket();

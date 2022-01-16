@@ -1,8 +1,8 @@
 package day39_RECAP.Cydeo;
 
 public class Developer extends Employee {
-    public Developer(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
-        super(name, age, gender, employeeID, jobTitle, salary);
+    public Developer(String name, int age, char gender, int employeeID, double salary) {
+        super(name, age, gender, employeeID,"DEVELOPER", salary);
     }
 
     public void fixingBugs(){
@@ -16,7 +16,6 @@ public class Developer extends Employee {
 
 
 }
-
 /*
 4. Create a sub class of Employee named Developer
             Override the work method

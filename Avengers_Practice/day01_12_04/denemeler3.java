@@ -5,25 +5,21 @@ import java.util.Scanner;
 
 public class denemeler3 {
 
+    public static void main(String[] args) {
+        String name = "oz ge";
 
-        public static void main(String[] args) {
-            Scanner in = new Scanner(System.in);
-            int size = in.nextInt();
-            ArrayList<Integer> list = new ArrayList<>();
-            for(int i=0; i < size; i++) {
-                list.add(in.nextInt());
-            }
+        char [] chars=name.toCharArray();
 
-
-            int sum=0;
-            for (int i=0;i<list.size();i++){
-                sum+=list.get(i);
-            }
-
-
-
+        for (char each : chars) {
+            if (Character.isDigit(each)) {
+                System.out.println(" ERROR !! ");
+                System.exit(1);}
+           if(!Character.isLetterOrDigit(each)){
+                if(!(each ==' ')) {
+                    System.err.println("Invalid entry");
+                    System.exit(1);
+                }}}
+        System.out.println(name);
 
 
-            System.out.println(sum);
-
-        }}
+    }}

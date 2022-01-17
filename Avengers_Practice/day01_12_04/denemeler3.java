@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class denemeler3 {
 
     public static void main(String[] args) {
-        String name = "oz ge";
+        String name = "ozd ge";
 
         char [] chars=name.toCharArray();
 
@@ -14,7 +14,7 @@ public class denemeler3 {
             if (Character.isDigit(each)) {
                 System.out.println(" ERROR !! ");
                 System.exit(1);}
-           if(!Character.isLetterOrDigit(each)){
+           if(!Character.isLetter(each)){
                 if(!(each ==' ')) {
                     System.err.println("Invalid entry");
                     System.exit(1);

@@ -24,6 +24,6 @@ public class Tester extends Employee_two {
     }
 
     public void createTicket(){
-
+        System.out.println(name+ " is creating ticket");
     }
 }

@@ -1,6 +1,6 @@
 package day37_Inheritance.Scrum_Task;
 
-public class AmazonInc {
+public class GoogleInc {
    public static void main(String[] args) {
 
             String company = "Amazon Inc";

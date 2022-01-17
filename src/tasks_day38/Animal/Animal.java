@@ -50,6 +50,7 @@ public class Animal {
         if(!(gender=='M'|| gender=='F'))
             System.err.println("Invalid gender:"+ gender);
         System.exit(1);
+
         this.gender = gender;
     }
 

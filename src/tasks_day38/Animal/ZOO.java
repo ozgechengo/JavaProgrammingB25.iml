@@ -4,7 +4,7 @@ package tasks_day38.Animal;
 public class ZOO {
 
     public static void main(String[] args) {
-        Phyton  phyton=new Phyton("Lucky","Brezilian",'F',3,"LARGE","brownish");
+        Phyton  phyton=new Phyton("CUTIE ","Brezilian",'F',3,"LARGE","brownish");
         Cat cat=new Cat("Lucy","Siamese",'F',1,"Small","Black");
         Dog dog=new Dog("Alex","Husky",'M',3,"Large","white");
         Parrot parrot=new Parrot("Alan","X",'M',4,"Small","Pink");

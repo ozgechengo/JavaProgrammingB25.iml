@@ -5,18 +5,24 @@ import java.util.Arrays;
 public class reverseArray {
     public static void main(String[] args) {
 
+        String str = "jdlaskdjas";
 
-        String[] arr = {"izge", "burak", "berk", "cihan", "berk", "cihan"};
-          int count=0;
+        String result="";
+        boolean palindrome=false;
 
 
-        for (String each : arr) {
-            if(each.equals(arr)){
+
+        for (int i =str.length()-1; i>=0 ; i--) {
+            char ch=str.charAt(i);
+              result+=ch;
 
         }
 
+        if(result.equals(str)){
 
+            System.out.println("is palindrome "+!palindrome);
+        }else {
+            System.out.println("is palindrome "+ palindrome);
         }
-
 
     }}

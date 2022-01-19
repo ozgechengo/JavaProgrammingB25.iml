@@ -11,43 +11,53 @@ import java.util.Scanner;
 
 public class examples {
 
-    public static int refuel_times(ArrayList<Integer> deliveries, int max_fuel) {
+    public static void main(String[] args) {
+        String [] cities = {"Boston", "Houston", "Austin", "lincoln", "Tulsa"};
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(cities));
+        int a = list.size();
 
-
-        int rT = 0;
-
-        for (Integer each : deliveries) {
-
-               rT += each / max_fuel;
-
-            if (each % max_fuel != 0) {
-                      rT += 1;
-
+        for (String str: list) {
+            String rev = "";
+            for (int i = str.length() - 1; i >= 0; i--) {
+                rev += str.charAt(i);
             }
 
-
+            list.set(--a, rev);}
+            System.out.println(list);
         }
 
-
-        return rT;
-
-
-    }
+        //{"Boston", "Houston", "Austin", "Lincoln", "Tulsa"}; list
+        //{"     " , "       " ,"      " , "     "  , "     " }  rev
 
 
-    // Do not touch below
+        //{"     " , "       " ,"      " , "     "  , "notsoB" }  rev
+        //{"Boston", "Houston", "Austin", "Lincoln", "notsoB"}; list
 
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int size = in.nextInt();
-        int fuel = in.nextInt();
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
-            list.add(in.nextInt());
-        }
 
-        System.out.println(refuel_times(list, fuel));
+         // {"     " , "       " ,"      " , "notsuoH", "notsoB" }  rev
+        //{"Boston", "Houston", "Austin", "notsuoH", "notsoB"}; list
 
-    }
+
+           //{"Boston", "Houston","nitsuA" , "notsuoH " , "notsoB" }; list
+        // {"     " , "       " ,"nitsuA" , "notsuoH " , "notsoB" }  rev
+
+
+
+                                          //simdi Houston a  geldi ters oldugu icin duzeltip atiyor
+        //{"Boston", "Houston","nitsuA" , "notsuoH " , "notsoB" }; list
+        // {"     " , " Houston " ,"nitsuA" , "notsuoH " , "notsoB" }  rev
+
+                                                       //Simdi bu Boston a geldi. ters oldugu icin duzeltip atiyor.
+        //{"Boston", "Houston","nitsuA" , "notsuoH " , "notsoB" }; list
+       // {"Boston" , " Houston " ,"nitsuA" , "notsuoH " , "notsoB" }  rev
+
+
+
+
 
 }
+
+
+
+//{"Boston", "Houston", "Austin", "lincoln", "Tulsa"};
+//{"Boston" ,"Houston", "Austin", "lincoln", "nostoB",};

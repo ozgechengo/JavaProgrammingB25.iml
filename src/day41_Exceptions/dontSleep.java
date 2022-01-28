@@ -1,6 +1,6 @@
 package day41_Exceptions;
 
-public class Sleep {
+public class dontSleep {
 
         public static void main(String args[])
                 throws InterruptedException {
@@ -19,5 +19,10 @@ public class Sleep {
                 System.out.println(importantInfo[i]);
             }
         }
+
+
+
     }
+
+
 

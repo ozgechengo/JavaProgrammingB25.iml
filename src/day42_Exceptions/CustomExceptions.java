@@ -1,33 +1,26 @@
 package day42_Exceptions;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
+class FaddyExceptions extends RuntimeException{
+       public FaddyExceptions(String message){
+       super(message);
+
+}
+}
+
+
+
+class NoBreakException extends  Exception{
+
+}
 public class CustomExceptions {
 
+    public static void main(String[] args)  {
 
-
-
-        public static void main(String[] args) {
-
-            System.out.println("Enter your age:");  // -20
-            int age = new Scanner(System.in).nextInt();
-
-            if(age < 0){
-                throw new InputMismatchException("Age can not be negative: "+age);
-            }
-
-            if(age > 21){
-                System.out.println("You are eligible");
-            }else{
-                throw new RuntimeException("You must be at least 21 years old");
-            }
-
-
-
-
+       // throw new FaddyExceptions("iTS BREAK TIME " );
+        try {
+            throw new NoBreakException();
+        } catch (NoBreakException e) {
+            e.printStackTrace();
         }
-
-
-    }
-
+    }}

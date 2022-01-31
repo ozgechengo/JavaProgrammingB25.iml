@@ -1,9 +1,6 @@
 package day42_Exceptions;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-public class DisadvantageOfThrowsKeyword {
-
+public class DisadvantagesOfThrowsKeyword {
 
     public static void main(String[] args)  {
 
@@ -35,3 +32,6 @@ public class DisadvantageOfThrowsKeyword {
 
 
 }
+
+
+

@@ -7,11 +7,9 @@ import day41_Exceptions.dontSleep;
 public class deneme {
     public static void main(String[] args) throws InterruptedException {
 
-        
-        System.out.println("ozge");
-
-      //  Thre    ad.sleep((long) 3.2);
+        System.out.println("hello");
+        throw new  ArithmeticException("Wrong calculation ");
 
 
-    }
-}
+
+    }}

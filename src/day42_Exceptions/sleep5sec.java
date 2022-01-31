@@ -1,6 +1,6 @@
 package day42_Exceptions;
 
-public class sleep {
+public class sleep5sec {
 
 
     public static void sleep5sec(){

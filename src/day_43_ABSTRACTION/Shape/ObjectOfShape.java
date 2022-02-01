@@ -4,7 +4,7 @@ public class ObjectOfShape {
     public static void main(String[] args) {
 
 
-        Circle circle = new Circle(5);
+        Circle circle = new Circle(1);
         Rectangle rectangle = new Rectangle(3, 4);
         Square square = new Square(2);
 

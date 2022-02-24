@@ -44,7 +44,11 @@ public class Animal {
 
 
     public void setName(String name) {
+        if (name.isBlank() || name.isEmpty()) {
+            throw new RuntimeException("Name cannot be empty or blank");
+        }
         this.name = name;
+
     }
 
     public void setSize(String size) {

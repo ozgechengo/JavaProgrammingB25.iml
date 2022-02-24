@@ -17,6 +17,7 @@ public class ParkingLot {
         toyota.start();
         bmw.start();
         tesla.start();
+        System.out.println(tesla.year);
 
 
 

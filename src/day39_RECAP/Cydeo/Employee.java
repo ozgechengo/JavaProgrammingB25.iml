@@ -43,19 +43,18 @@ public class Employee  extends Person{
             System.out.println(getName()+" is working");
         }
 
-        public String toString() {
-            return "Employee{" +
-                    "name='" + getName() + '\'' +
-                    ", age=" + getAge() +
-                    ", gender=" + getGender() +
-                    ", employeeID=" + employeeID +
-                    ", jobTitle='" + jobTitle + '\'' +
-                    ", salary=" + salary +
-                    '}';
-        }
-
+    public String toString() {
+        return "Employee{" +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", gender=" + getGender() +
+                ", employeeID=" + employeeID +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
 
     }
+}
 
 /*
 2. Create a sub class of Person named Employee:

@@ -19,5 +19,5 @@ public class removeDuplicate {
                 result += ch;
             }
         }
-            System.out.println(result);
+            System.out.println(result+""+count);
 }}

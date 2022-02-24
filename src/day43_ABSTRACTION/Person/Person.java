@@ -1,6 +1,6 @@
-package day39_RECAP.Cydeo;
+package day43_ABSTRACTION.Person;
 
-public class Person {
+public abstract class Person {
 
     private String name;
     private int age;
@@ -11,6 +11,7 @@ public class Person {
         setAge(age);
         setGender(gender);
     }
+
     public String getName() {
         return name;
     }
@@ -24,6 +25,9 @@ public class Person {
     }
 
     public void setAge(int age) {
+        if(age <= 0){
+            throw new RuntimeException("Invalid age: "+age);
+        }
         this.age = age;
     }
 
@@ -32,44 +36,25 @@ public class Person {
     }
 
     public void setGender(char gender) {
-
         this.gender = gender;
     }
 
 
+    public abstract void sleep();
+
     public void eat(){
-        System.out.println(name+" is eating");
-
+        System.out.println(name+" is eating baklava");
     }
 
-    public void drink(){
-        System.out.println(name+" is drinking");
-    }
-
-    public void sleep(){
-        System.out.println(name+" is sleeping");
-    }
-
-
+    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                  ", age=" + age +
+                ", age=" + age +
                 ", gender=" + gender +
                 '}';
     }
 
-}
 
-/*
-1. Create a class named Person:
-            Variables:
-                name, age, gender
-            Encapsulate all the fields
-            Add a constructor to set all the fields
-            Methods:
-                eat()
-                drink()
-                sleep()
-                toString()
- */
+
+}

@@ -13,8 +13,8 @@ public class KilodanPoundaDonusturme {
 
 
 
-
-
+      int num=100;
+        System.out.println(" nums"+(100 +100));
 
 
 

@@ -12,7 +12,7 @@ public class Checked_Uncheked {
 
         char[] characters ={'A','B','C'};
 
-      //  System.out.println(characters[99]);
+    // dad
 
 
 

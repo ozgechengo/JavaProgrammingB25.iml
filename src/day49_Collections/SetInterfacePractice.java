@@ -1,4 +1,4 @@
-package day_49_Collections;
+package day49_Collections;
 
 import java.util.*;
 

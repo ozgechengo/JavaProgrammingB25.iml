@@ -18,6 +18,17 @@ public class MapPractice2 {
         map.put("Anderson",125000);
         map.put("Steven", 135000);
 
+
+
+
+        String name="";
+
+
+        int maxsalary=Integer.MIN_VALUE;
+        for (Map.Entry<String, Integer> pair : map.entrySet()) {
+
+        }
+
     }
 
 

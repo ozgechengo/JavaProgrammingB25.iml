@@ -13,8 +13,8 @@ public class RemoveEven {
 
      //  set.removeIf( p -> p %2 ==0);
 
-       Iterator<Integer> it= set.iterator();
-       while(it.hasNext()){
+        Iterator<Integer> it= set.iterator();
+       while( it.hasNext()){
            if(it.next() %2 ==0){
                it.remove();
            }

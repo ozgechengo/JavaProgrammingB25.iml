@@ -2,7 +2,7 @@ package Menthor;
 
 
 
-public class DivisibleBye3_butnot_15 {
+public class DivisibleBye15_5_3 {
     public static void main(String[] args) {
 
       divisibleBy_3_5_15(100);

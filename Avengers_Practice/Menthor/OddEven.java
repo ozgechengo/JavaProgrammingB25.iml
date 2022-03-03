@@ -1,10 +1,6 @@
 package Menthor;
 
 
-
-
-
-
 public class OddEven {
 
 
@@ -17,12 +13,12 @@ public class OddEven {
 
     static String returnOdd(int num) {
 
-         String  result ="";
+        String result = "";
 
         if (num % 2 == 1) {
-            result =("number is ODD");
+            result = ("number is ODD");
         } else {
-            result ="number is EVEN";
+            result = "number is EVEN";
         }
         return result;
     }
